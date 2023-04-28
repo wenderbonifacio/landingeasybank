@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    const navbar = $('.navbar');
+    const navbar = $('.header-container');
     const scrollUpBtn = $('.scroll-up-btn');
     const STICKY_THRESHOLD = 20;
-    const SHOW_THRESHOLD = 500;
+    const SHOW_THRESHOLD = 300;
 
     $(window).scroll(function(){
         toggleStickyClass(this.scrollY, navbar, STICKY_THRESHOLD);

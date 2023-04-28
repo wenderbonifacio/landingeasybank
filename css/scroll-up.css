@@ -7,7 +7,7 @@
     text-align: center;
     line-height: 50px;
     color: #fff;
-    background: #160d58;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     border-radius: 6px;
     font-size: 30px;
     z-index: 9999;
